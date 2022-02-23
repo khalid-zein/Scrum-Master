@@ -2,11 +2,15 @@
     float: left;
     width: 25%;
     background-color: lightgrey;
+    display: table-cell;
   }
   .p {
     font-size:medium;
   }
-  /* Stops the float property from affecting content after the columns */
+  .feature {
+    flex: 1;
+    padding: 1px;
+  }
   .columns:after {
     content: "";
     display: table;
