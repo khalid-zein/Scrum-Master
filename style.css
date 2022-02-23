@@ -1,0 +1,161 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+
+/* Global Settings */
+
+html {
+    scroll-behavior: smooth;
+    transition: all ease-in .3s;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 70px;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 25px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* RE-USABLE STYLES */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn {
+    padding: 10px 20px;
+}
+
+/* HEADER STYLES */
+
+.header {
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(to left, rgba(0,0,0,0.8), rgba(0, 0, 0, 0.9)), url("images/hero-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.nav-items {
+    display: flex;
+}
+
+.nav-items li {
+    margin-right: 30px;
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+}
+
+.nav-items li .active {
+    color: #C66161;
+}
+
+.nav-items li a {
+    color: white;
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+
+.nav-items li a:hover {
+    border-bottom: 3px solid #C66161;
+}
+
+/* Logo */
+.nav-logo h2{
+    font-size: 48px;
+    color: white;
+    text-transform: uppercase;
+}
+
+/* Hero Wrapper */
+.hero-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 74px;
+    font-weight: 500;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.hero-intro {
+    font-size: 22px;
+    color: white;
+    margin-bottom: 30px;
+    width: 500px;
+    margin: 0 auto;
+    line-height: 30px;
+}
+
+.btn-hero {
+    background-color: #C66161;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 15px 50px;
+    margin-top: 70px;
+    align-items: center;
+    cursor: pointer;
+    transition: all ease-in .3s;
+}
+
+.btn-hero:hover {
+    background-color: #9b4141;
+}
