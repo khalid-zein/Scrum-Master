@@ -1,0 +1,18 @@
+.feature {
+    float: left;
+    width: 25%;
+    background-color: lightgrey;
+    display: table-cell;
+  }
+  .p {
+    font-size:medium;
+  }
+  .feature {
+    flex: 1;
+    padding: 1px;
+  }
+  .columns:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
